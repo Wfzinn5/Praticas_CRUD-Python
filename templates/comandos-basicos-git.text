@@ -26,7 +26,14 @@ git commit -m "Arquivos iniciais
 git branch -M main
 
 9)Referenciar o repositório local para o repositório remoto(github)
-git remote add origin https://GitHub.com/Praticas_CRUD-Python-github.git
+git remote add origin https://GitHub.com/Wfzinn5-github.git
 
 10)Realizar o envio do repositório local para o remoto 
 git push -u origin main
+
+OBS: Depois de confirmado o envio do repositório local para o remoto,
+toda alteração posterior deverá ser enviada ao GitHub com os comandos a seguir
+
+git add.
+git commit -m "Nova Mensagem"
+git push
