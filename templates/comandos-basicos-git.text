@@ -18,3 +18,15 @@ git init
 6)Adicionar os arquivos para o envio do GitHub
 
 git add .
+
+7) Adicionar mensagem sobre os arquivos para o envio ao GitHub
+git commit -m "Arquivos iniciais
+
+8) Alterar o nome da ramificação do repositório local(computador ou notebook) para "main"
+git branch -M main
+
+9)Referenciar o repositório local para o repositório remoto(github)
+git remote add origin https://GitHub.com/Praticas_CRUD-Python-github.git
+
+10)Realizar o envio do repositório local para o remoto 
+git push -u origin main
